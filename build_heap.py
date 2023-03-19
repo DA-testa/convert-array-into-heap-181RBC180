@@ -24,15 +24,18 @@ def heapify(data, n, i, swaps):
 
 
 def main():
-    if (input()=="I"):
-        # inIput()
-        n = int(input())
-        data = list(map(int, input().split()))
-    elif(input()=="F"):
-        with open(input(),'r') as file:
-            n = file.readline()
-            while data:
-                data = list(map(int,file.readline().split()))
+    # if (input()=="I"):
+    #     # inIput()
+    #     n = int(input())
+    #     data = list(map(int, input().split()))
+    # elif(input()=="F"):
+    #     with open(input(),'r') as file:
+    #         n = file.readline()
+    #         while data:
+    #             data = list(map(int,file.readline().split()))
+    n = int(input())
+    input()
+    data = list(map(int,input().split()))
     assert len(data) == n
 
     swaps = build_heap(data)
