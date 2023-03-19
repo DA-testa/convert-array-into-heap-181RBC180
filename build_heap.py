@@ -34,6 +34,7 @@ def main():
     #         while data:
     #             data = list(map(int,file.readline().split()))
     print(input())
+    print(input())
     n = int(input())
     data = list(map(int,input().split()))
     assert len(data) == n
