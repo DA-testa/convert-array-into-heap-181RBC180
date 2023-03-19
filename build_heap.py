@@ -30,7 +30,8 @@ def main():
         n = int(input())
         data = list(map(int, input().split()))
     elif "F" in i:
-        with open(input(), 'r') as file:
+        filename = input()
+        with open(filename, 'r') as file:
             n = int(file.readline())
             data = list(map(int, file.readline().split()))
     assert len(data) == n
