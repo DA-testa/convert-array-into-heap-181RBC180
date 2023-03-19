@@ -26,7 +26,8 @@ def heapify(data, n, i, swaps):
 def main():
     data = []
     if input() == "I":
-        print(n = int(input()))
+        print(input())
+        n = int(input())
         data = list(map(int, input().split()))
     elif input() == "F":
         with open(print(input()), 'r') as file:
