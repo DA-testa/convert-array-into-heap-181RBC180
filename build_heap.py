@@ -33,8 +33,8 @@ def main():
     #         n = file.readline()
     #         while data:
     #             data = list(map(int,file.readline().split()))
-    n = int(input())
     input()
+    n = int(input())
     data = list(map(int,input().split()))
     assert len(data) == n
 
